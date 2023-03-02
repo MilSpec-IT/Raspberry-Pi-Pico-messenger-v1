@@ -14,6 +14,7 @@ Here are the steps to send and receive messages using LoRa and Raspberry Pi Pico
 Connect the LoRa transceiver module to the Raspberry Pi Pico board as follows:
 
 VCC of LoRa module to 3.3V of Raspberry Pi Pico
+
 GND of LoRa module to GND of Raspberry Pi Pico
 MISO of LoRa module to GP16 of Raspberry Pi Pico
 MOSI of LoRa module to GP19 of Raspberry Pi Pico
