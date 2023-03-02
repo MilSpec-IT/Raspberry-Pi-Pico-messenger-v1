@@ -16,11 +16,17 @@ Connect the LoRa transceiver module to the Raspberry Pi Pico board as follows:
 VCC of LoRa module to 3.3V of Raspberry Pi Pico
 
 GND of LoRa module to GND of Raspberry Pi Pico
+
 MISO of LoRa module to GP16 of Raspberry Pi Pico
+
 MOSI of LoRa module to GP19 of Raspberry Pi Pico
+
 SCK of LoRa module to GP18 of Raspberry Pi Pico
+
 NSS of LoRa module to GP17 of Raspberry Pi Pico
+
 DIO0 of LoRa module to GP20 of Raspberry Pi Pico
+
 Connect the Raspberry Pi Pico board to your computer using a USB cable.
 
 Open a terminal program on your computer and connect to the Raspberry Pi Pico board with the following settings:
@@ -29,6 +35,7 @@ Baud rate: 115200
 Data bits: 8
 Stop bits: 1
 Parity: None
+
 Download and install the RadioHead library for Raspberry Pi Pico from GitHub. This library provides functions to control the LoRa transceiver module.
 
 This runs C++ using the RadioHead library to send and receive messages. Here is an example program:
