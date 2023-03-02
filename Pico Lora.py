@@ -4,7 +4,7 @@ import busio
 import digitalio
 import adafruit_rfm9x
 
-# Define pins
+# Define pins 
 CS = digitalio.DigitalInOut(board.GP17)
 RESET = digitalio.DigitalInOut(board.GP0)
 
